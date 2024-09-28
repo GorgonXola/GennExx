@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feetback</title>
+</head>
+<body>
+    <h1>FORMULARIOS DE HTML</h1>
+    <form action="forms.html" method="get">
+        <label for="txtNombre">Nombre</label>
+        <input id="txtNombre" name="txtName" type="text" placeholder="Nombre completo"/>
+        <br>
+        <label for="txtEmail">Correo</label>
+        <input id="txtEmail" name="txtEmail"
+         type="email" placeholder="tuCorreo@lectron.ioc"/>
+        <br>
+<label>Ciudad</label>
+<br>
+
+<input type="radio" id="optTeg" name="optCiudad" value="TEG">
+<label for="optTeg">Tegucigalpa</label>
+&nbsp;
+
+<input type="radio" id="optSPS" name="optCiudad" value="SPS">
+<label for="optTeg">San Pedro Sula</label>
+&nbsp;
+
+<input type="radio" id="optCHOL" name="optCiudad" value="CHOL" checked>
+<label for="optTeg">Choluteca</label>
+&nbsp;
+
+<input type="radio" id="optPARA" name="optCiudad" value="PARA">
+<label for="optTeg">El Paraiso</label>
+&nbsp;
+<br>
+<label for="cmbCiudad">Ciudades 2</label>
+
+<select name="cmbCiudad" name="cmbCiudad">
+    <option value="TEG" selected>Tegucigalpa</option>
+    <option value="SPS">San Perdro Sula</option>
+    <option value="CHOL">Choluteca</option>
+    <option value="PARA">El Paraiso</option>
+</select>
+<label for="txtLongText">Texto Largo</label><br>
+<textarea name="txtBio" id="txtLongText" placeholder="Texto Muy Largo"></textarea>
+        <button type="submit" name="btmSend">Enviar</button>
+    </form>
+</body>
+</html>
