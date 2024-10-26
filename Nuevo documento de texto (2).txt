@@ -1,0 +1,32 @@
+caja de contenido
+padding-->zona visible antes del contenido
+borde-->ultima caja visible
+Margen->distancia entre el borde y la frontera con el siguiente elemento
+trouble
+t-top
+r-right
+b-buton
+l-left
+class-> clasifier
+padding puede recivir 4 valores 2 o 1
+como diseñadores 
+el ancho es de la linea interior a la exteriro como el pading order
+en la web las distancias las unidades son o relativas o absolutas
+las realtivas son porcentajes de una unidad
+y las absolutas son una unidad pixeles ,puntos,cm,pulg
+relativas dependen como por ejemplo (rem) entity m ya que la m es
+el caracter con mas ancho del alfaveto arabico
+en la mayoria de las fuentes en su tamaño normal siempre tiene 16 pixeles de ancho
+pero nos da una buena estimacion r significa root 
+em seria el tamaño de la letra m relativo al padre de la letra superior
+es relatvo al tamaño del contenedor por eso usamos (rem)
+hay otra unidad relativa la cual es el porcentaje disponible
+lo que vemos del navegador es una ventana
+y no lo veo de forma completa solo veo la seccion de arreiva para abajo
+y esa ventana es el viewport
+vh viewport hight que es el tamaño de esa ventana y esta basado en 100vh
+vw view port width el ancho
+
+el posisicionamiento de cualquier elemento o puede ser absoluto resolviendo 
+puede ser relativos a elementos o absoluto a 
+la pantalla o el plano carteciano superior declarado
