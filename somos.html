@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Página con Bootstrap, jQuery y JavaScript</title>
+    
+    <!-- Vinculamos el CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B4gt1jrGC7Jh4AgR52N4t7tDtmJXtdX2F2xq8DfeocmP4nb5L5W/8roS8z0eJxA7" crossorigin="anonymous">
+    
+    <!-- Vinculamos el archivo CSS personalizado -->
+    <style>
+        body {
+            padding-top: 20px;
+        }
+        .custom-card {
+            background-color: #f8f9fa;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center mb-4">Página con Bootstrap, jQuery y JavaScript</h1>
+
+        <!-- Ejemplo de tarjeta con Bootstrap -->
+        <div class="card custom-card">
+            <div class="card-body">
+                <h5 class="card-title">Ejemplo de Tarjeta</h5>
+                <p class="card-text">Este es un ejemplo de tarjeta utilizando Bootstrap.</p>
+                <button id="btnAlert" class="btn btn-primary">Mostrar Alerta</button>
+            </div>
+        </div>
+
+        <!-- Ejemplo de fila con dos columnas -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Columna 1</h5>
+                        <p class="card-text">Contenido en la primera columna.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Columna 2</h5>
+                        <p class="card-text">Contenido en la segunda columna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery, Bootstrap JS y Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zyKq2tiDxI2qfIIz5H3U9r59M2c7p65K4l/8Zla0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqBxFw1z6tK/3g5X77kq2zFtaT5bnd+fnTZ0EdH/Tx63j" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqBxFw1z6tK/3g5X77kq2zFtaT5bnd+fnTZ0EdH/Tx63j" crossorigin="anonymous"></script>
+
+    <!-- Script de JavaScript personalizado -->
+    <script>
+        $(document).ready(function() {
+            $('#btnAlert').click(function() {
+                alert('¡Hola! Esta es una alerta generada con jQuery y JavaScript.');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
