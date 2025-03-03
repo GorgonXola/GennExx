@@ -1,0 +1,49 @@
+mac dirección
+cuantos puertos podemos configurar Windows server 2022
+65,535 puertos posibles para configurar
+diferencia entre mbr y gpt
+
+que es UEFI
+es una configuración necesaria para configurar el servidor físico
+se configura el arranque seguro y la bios atravez del UEFI 
+el formato para esa memoria es NTPS
+
+los discos duros se graban en capas 
+cuando se formatea normalmente solo queda en estado inactivo y la nueva pista se activa
+	|||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||
+activa||||/////////////////inactiva
+inicio inactivo ////###||||||||
+		    Corrupta
+las memorias cuentan con un sector oculto donde se almacena información virtual con un archivo super comprimido
+
+los discos dinámicos solo se utilizan para datos y aplicación NO PUEDEN ALOJAR SISTEMA OPERATIVO
+
+existe un código de color para cada disco
+El formato NEGRO es un disco que no esta inicializado y tampoco esta configurado
+se convierte en dinamico
+
+Miguel 
+Bairon
+88618222
+llujan@unicah.edu
+tercera semana y semana de exámenes del segundo parcial(cuarta)
+
+versiones de windows server estándar /(linea de comandos y interfaz grafica)
+
+investigar como se activa el servicio de Directivas de Seguridad Local
+Seguridad de Windows
+que es un cluster
+que es un dns
+las ips se pueden generar de forma statica o dinámica 
+que recursos utilizan un servidor consumidor
+cuantos roles vamos a ver
+cuantos servicios de roles de active directory podemos configurar en el servidor 5 
+pero no se pueden configurar los 5 
+DHCP Protocolo de configuración dinámica de host
+podemos configurar un servicio lpd veradero
+
+C:\Users\jfnun\Documents\Progra Negocios
+
+cuales son los servicios de active directory 
+y no sepueden marcar los 5 roles del servidor
