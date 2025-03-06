@@ -47,3 +47,5 @@ C:\Users\jfnun\Documents\Progra Negocios
 
 cuales son los servicios de active directory 
 y no sepueden marcar los 5 roles del servidor
+
+cual es el puerto que se configura para envio de correo de correo electronico 587
